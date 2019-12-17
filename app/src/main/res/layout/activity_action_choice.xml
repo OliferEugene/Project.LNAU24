@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16sp"
-                android:background="#34B406"
+                android:background="#45DA08"
                 android:minWidth="250dip"
                 android:text="Завдання" />
 
