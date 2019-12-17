@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15sp"
+                android:background="#45DA08"
                 android:text="Механіки та Енергетики" />
 
             <Button
@@ -41,6 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15sp"
+                android:background="#34B406"
                 android:text="Економічний" />
 
             <Button
@@ -48,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15sp"
+                android:background="#45DA08"
                 android:text="Агротехнологій і Екології" />
 
             <Button
@@ -55,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15sp"
+                android:background="#34B406"
                 android:text="Будівництва та архітектури" />
 
             <Button
@@ -62,6 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15sp"
+                android:background="#45DA08"
                 android:text="Землевпорядний" />
         </LinearLayout>
 
