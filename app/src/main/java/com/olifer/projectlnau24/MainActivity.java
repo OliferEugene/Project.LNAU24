@@ -31,17 +31,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);        setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        etEmail = (EditText) findViewById(R.id.etEmail);
-        etPassword = (EditText) findViewById(R.id.etPassword);
+        etEmail = findViewById(R.id.etEmail);
+        etPassword = findViewById(R.id.etPassword);
 
-        loginLayout = (LinearLayout) findViewById(R.id.loginLayout);
+        loginLayout = findViewById(R.id.loginLayout);
 
-        chbRememberUser = (CheckBox) findViewById(R.id.chbRememberUser);
+        chbRememberUser = findViewById(R.id.chbRememberUser);
 
-        btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnSignUp = (Button) findViewById(R.id.btnSignUp);
+        btnLogin = findViewById(R.id.btnLogin);
+        btnSignUp = findViewById(R.id.btnSignUp);
 
         validUser = false;
 
