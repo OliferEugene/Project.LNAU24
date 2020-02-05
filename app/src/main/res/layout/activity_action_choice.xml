@@ -24,10 +24,10 @@
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/lnau_logo" />
+                    app:srcCompat="@drawable/logo_no_shield_no_bg_dark" />
 
                 <TextView
                     android:id="@+id/tvLabel2"

@@ -23,11 +23,11 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btnSubmit:
-                Intent intent = new Intent(this, SignUpConfirmationActivity.class);
-                startActivity(intent);
-                break;
-        }
+//        switch (v.getId()) {
+//            case R.id.btnSubmit:
+//                Intent intent = new Intent(this, SignUpConfirmationActivity.class);
+//                startActivity(intent);
+//                break;
+//        }
     }
 }

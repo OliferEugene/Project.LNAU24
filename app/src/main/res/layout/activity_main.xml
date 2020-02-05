@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center|center_horizontal|center_vertical"
             android:layout_weight="70"
-            app:srcCompat="@drawable/lnau_logo" />
+            app:srcCompat="@drawable/logo_with_shield" />
 
         <TextView
             android:id="@+id/tvLabel"
