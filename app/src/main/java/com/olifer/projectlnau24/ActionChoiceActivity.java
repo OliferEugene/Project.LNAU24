@@ -42,7 +42,7 @@ public class ActionChoiceActivity extends TabActivity implements View.OnClickLis
         tabHost.addTab(tabSpec);
 
         tabSpec = tabHost.newTabSpec("myGroup");
-        tabSpec.setIndicator("Моя група");
+        tabSpec.setIndicator("Профіль");
         tabSpec.setContent(new Intent(this, TasksActivity.class));
         tabHost.addTab(tabSpec);
     }
