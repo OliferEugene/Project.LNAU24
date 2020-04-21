@@ -32,7 +32,7 @@ public class ActionChoiceActivity extends TabActivity implements View.OnClickLis
         TabHost.TabSpec tabSpec;
 
         tabSpec = tabHost.newTabSpec("events");
-        tabSpec.setIndicator("Заходи");
+        tabSpec.setIndicator("Новини");
         tabSpec.setContent(new Intent(this, EventsActivity.class));
         tabHost.addTab(tabSpec);
 

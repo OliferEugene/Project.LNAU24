@@ -21,8 +21,144 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10sp"
-                android:text="Найближчі заходи"
+                android:text="Новини"
                 android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:background="@android:color/holo_green_dark"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text='Вітаємо з перемогою у Всеукраїнському конкурсі студентських наукових робіт зі спеціальності "Автомобільний транспорт"'
+                        android:textColor="#0E0202"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text='14 квітня 202 року стали відомі результати ІІ туру Всеукраїнського конкурсу студентських наукових робіт зі спеціальності "Автомобільний транспорт" (напрям "Автомобільна електроніка"), який проводився на базі кафедри автомобільної електроніки Харківського національного автомобільно-дорожнього університету. На конкурс було надіслано 37 студентських робіт із 22 вищих технічних навчальних закладів.' />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25sp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Шановна викладацька родино, дорогі студенти! Христос Воскрес!"
+                        android:textColor="#0E0202"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Дозвольте мені щиро й тепло привітати Вас із величним святом Воскресіння Христового! Святом, що дарує всім нам упевненість у завтрашньому дні, вселяє спокій у серця, зміцнює віру та живить душу. У ці дні ми, аналізуючи минуле, творимо сучасне і вибудовуємо майбутнє. Кожен християнин сприймає Воскресіння Христове з відкритою душею і чистим серцем, почуттям радісної благодаті та надії на краще." />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25sp"
+                android:background="@android:color/holo_green_dark"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Шановні Колеги!"
+                        android:textColor="#0E0202"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text='Запрошуємо вас взяти участь у ІХ Міжнародній науково-практичній щорічній інтернет-конференції "Ефективність функціонування сільськогосподарських підприємств", яка відбудеться 25-27 травня 2020р. Проблематика 2020р.: "Світові тенденції розвитку агропромислового виробництва". Будемо вдячні за поширення цієї інформації серед своїх колег.' />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25sp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text='Вітаємо х перемогою у Всеукраїнському конкурсі студентських наукових робіт зі спеціальності "Економіка сільського господарства і АПК"'
+                        android:textColor="#0E0202"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="9-10 квітня 2020 року у Подільському державному аграрно-технічному університеті за результатами першого етапу ІІ туру галузевою конкурсною комісією оприлюднено підсумки другого етапу ІІ туру Всеукраїнського конкурсу студентських робіт зі спеціальності &quot;Економіка сільського господарства і АПК&quot;. За результатами оцінювання студентка економічного факультету Львівського національного аграрного університету Мар'яна Піськів стала однією із переможців конкурсу і нагороджена дипломом ІІІ ступеня. Наукова робота виконувалася під керівництвом к.е.н.г.у.р.у. доцента кафедри економіки Ганни Володимирівни Сиротюк. Вітаємо з перемогою і бажаємо подальшої плідної дослідницької праці, успіхів та перемог!" />
+                </LinearLayout>
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

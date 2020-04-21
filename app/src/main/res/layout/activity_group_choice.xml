@@ -7,32 +7,87 @@
     tools:context="com.olifer.projectlnau24.GroupChoiceActivity">
 
     <LinearLayout
-        android:id="@+id/groupLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="10"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:visibility="gone">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvHint4"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/facultyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvHint3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="20sp"
+                android:text="Оберіть вашу групу"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btnAIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="#45DA08"
+                android:text="АІН-31" />
+
+            <Button
+                android:id="@+id/btnAT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="#45DA08"
+                android:text="АТ-31" />
+
+            <Button
+                android:id="@+id/btnEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="#45DA08"
+                android:text="ЕН-31" />
+
+            <Button
+                android:id="@+id/btnIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="#45DA08"
+                android:text="ІТ-31" />
+
+            <Button
+                android:id="@+id/btnMASH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:background="#45DA08"
+                android:text="МАШ-31" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/groupLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="15sp"
-            android:layout_marginBottom="20sp"
-            android:text="Оберіть вашу групу"
-            android:textSize="30sp" />
-    </LinearLayout>
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:visibility="gone">
 
-    <TextView
-        android:id="@+id/tvHint"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Оберіть вашу групу"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="0dp" />
+            <TextView
+                android:id="@+id/tvHint4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="20sp"
+                android:text="Оберіть вашу групу"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
